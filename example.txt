@@ -1,5 +1,2 @@
-hello world:
-i am goodhi,everyone:
-first line:
-second line:
-third line
+i am learning:
+i am data analyst:
