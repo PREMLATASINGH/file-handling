@@ -4,3 +4,8 @@ with open('example.txt','r') as file:
     with open('example.txt','r') as file:
         for line in file:
             print(line.strip())
+
+with open('example.txt','w') as file:
+    file.write('hello world:\n')
+    file.write('i am good')
+    
