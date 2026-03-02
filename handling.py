@@ -13,4 +13,6 @@ with open('example.txt','a') as file:
 lines=['first line:\n','second line:\n','third line\n']
 with open('example.txt','a') as file:
     file.writelines(lines)
-    
+data=b'\x00\x01\x02'
+with open('example.bin','wb') as file:
+    file.write(data)
