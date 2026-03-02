@@ -10,5 +10,7 @@ with open('example.txt','w') as file:
     file.write('i am good')
 with open('example.txt','a') as file:
     file.write('hi,everyone:\n')
-
+lines=['first line:\n','second line:\n','third line\n']
+with open('example.txt','a') as file:
+    file.writelines(lines)
     
