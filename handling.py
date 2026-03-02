@@ -22,6 +22,6 @@ with open('example.bin','rb') as file:
 with open('example.txt','w+') as file:
    file.write('i am learning:\n')
    file.write('i am data analyst:\n')
-   ##file.seek(0)
+   file.seek(0)
    content=file.read()
    print(content)
