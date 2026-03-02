@@ -3,4 +3,4 @@ with open('example.txt','r') as file:
     print(content)
     with open('example.txt','r') as file:
         for line in file:
-            print(line)
+            print(line.strip())
